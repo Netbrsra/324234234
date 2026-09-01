@@ -1,0 +1,11 @@
+{
+  "parent": "block/orientable",
+  "ambientocclusion": false,
+  "textures": {
+    "top": "automaticminer:blocks/miner_top",
+    "front": "automaticminer:blocks/miner_front",
+    "side": "automaticminer:blocks/miner_side",
+    "bottom": "automaticminer:blocks/miner_bottom",
+    "particle": "automaticminer:blocks/miner_side"
+  }
+}

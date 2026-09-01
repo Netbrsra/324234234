@@ -1,0 +1,14 @@
+CORRECOES V5
+
+1. TEXTURA NO CHAO:
+   O modelo agora usa explicitamente miner_front, miner_side, miner_top e miner_bottom.
+   O blockstate gira o modelo conforme a direcao do bloco.
+
+2. BOTAO PARAR:
+   Como o minerador se move, a GUI ficava apontando para a posicao antiga.
+   Agora o minerador guarda o UUID do jogador que o abriu e esse UUID e copiado junto
+   quando a maquina avanca. Se a GUI enviar o comando para a posicao antiga, o servidor
+   encontra a maquina atual e aplica o comando PARAR nela.
+
+3. MINERACAO E DIRECAO:
+   Nao foram alteradas nesta correcao.
